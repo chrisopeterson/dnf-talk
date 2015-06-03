@@ -1,0 +1,9 @@
+C:\Code\dnf-talk\BridgeExample\BridgeExample\bin\Debug\BridgeExample.dll
+C:\Code\dnf-talk\BridgeExample\BridgeExample\bin\Debug\BridgeExample.pdb
+C:\Code\dnf-talk\BridgeExample\BridgeExample\bin\Debug\Bridge.dll
+C:\Code\dnf-talk\BridgeExample\BridgeExample\bin\Debug\Bridge.Html5.dll
+C:\Code\dnf-talk\BridgeExample\BridgeExample\bin\Debug\Bridge.xml
+C:\Code\dnf-talk\BridgeExample\BridgeExample\bin\Debug\Bridge.Html5.xml
+C:\Code\dnf-talk\BridgeExample\BridgeExample\obj\Debug\BridgeExample.csprojResolveAssemblyReference.cache
+C:\Code\dnf-talk\BridgeExample\BridgeExample\obj\Debug\BridgeExample.dll
+C:\Code\dnf-talk\BridgeExample\BridgeExample\obj\Debug\BridgeExample.pdb
