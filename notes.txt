@@ -1,0 +1,75 @@
+Example
+----------------
+
+Bridge.Net
+---------
+
+New Visual studio window and new project
+Class Library - BridgeExample
+Open Nuget Package Manager
+Install-Package bridge
+Explain additions in solution explorer
+
+Remove using statements - add bridge and bridge html5
+Add new main method with Ready tag and Window.Alert saying hi along with a comment to prove it gets translated
+
+Move on to other versions from there....
+
+
+Chocolately
+-----------
+
+Install chocolately from site
+Switch to powershell -> Command Prompt - @Powershell
+Install firefox - choco install firefox
+Install git - choco install git
+Install notepadplusplus - choco install notepadplusplus
+finally choco install scriptcs - this is the one I really wanted to show
+
+
+ScriptCS
+-------------
+
+choco install scriptcs
+
+Do basic example - scriptcs is command for REPL
+
+var message = "Hello, world!";
+> Console.WriteLine(message);
+Hello, world!
+
+So the idea behind scriptcs is to use C# as a scripting language...
+Which means you can use it in places you would use a windows script, python, or other tools like this. Its to help automate things but you can use a powerful tool, all of .NET
+
+Show scriptCS with a more complicated example
+This can obviously be extended further
+I think its a good choice for a lot of the glue code which exists in the world
+Batch scripts, etc.
+If there is a process you have in you project you do often, then automate it
+and with this you can do it in a language you know, easy to add to source control
+and is isolated.
+Also you can package it up into script bundles which work together
+though i don't have time to cover that and don't know everyhing about it.
+
+
+
+GLIMPSE
+------
+Finally we have glimpse which is a very powerful tool you can use to help monitor your application.
+It combines Application and Database analysis in the browser.
+
+Open Reserch priorities application - nuget
+Intall-package Glimpse.MVC4
+
+need to add this key to web config to fix glimpse async issue with web server
+<add key="Glimpse:DisableAsyncSupport" value="true" />
+
+show the basic demo - its really cool, you can see a full heads up display of your site.
+
+Now add another package
+Install-Package Glimpse.EF5
+
+This installs the sql stuff, so now open that up and show them that it shows the entire sql pipeline.
+
+Little more digging and display
+FIN
